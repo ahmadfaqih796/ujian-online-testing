@@ -1,7 +1,7 @@
 describe("Login", () => {
   beforeEach(() => {
-    cy.viewport(1536, 960);
-    // cy.viewport("iphone-5");
+    // cy.viewport(1536, 960);
+    cy.viewport("iphone-5");
     cy.visit("http://localhost:3000/authentication/login");
     cy.wait(2000);
     cy.intercept("POST", "http://localhost:3030/authentication").as(
