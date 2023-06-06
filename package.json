@@ -1,0 +1,20 @@
+{
+  "name": "ujian-online-testing",
+  "version": "1.0.0",
+  "description": "testing automation ujian online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "ujian"
+  ],
+  "author": "Ahmad Faqih Arifin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
