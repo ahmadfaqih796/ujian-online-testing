@@ -14,7 +14,7 @@ describe("Login", () => {
     cy.get('input[name="password"]').type("135677");
     cy.get('button[type="submit"]').click();
     cy.contains("Email atau password salah").should("be.visible");
-    cy.wait(2000);
+    cy.wait(5000);
   });
 
   it("Login berhasil", () => {
